@@ -1,0 +1,70 @@
+First of all I would like to thank you for your purchase! You are the best!
+
+
+/* Folder structure:
+============================ */
+
+/* coder
+------------------------------- */
+
+	Main folder of the Coder - clean personal PSD template. You can find here 3 PSD files (home page, portfolio detail & blog detail page) also all files are layer PSD.
+
+
+/* documentation
+------------------------------- */
+
+	Coder - clean personal PSD template documentation is also available. To view it, navigate to the documentation folder and double click index.html file. You can learn more about Coder PSD template from the documentation.
+
+/* Main Features
+---------------------------------------------------------- */
+
+- All files are layerd PSD
+- 3 PSD files included
+- 1920px width with 1170px bootstrap container.
+- Bootstrap 12 columns with guide line.
+- Portfolio details page included
+- Blog details page included
+- 24/7 first support
+
+/* How To Edit PSD Files
+---------------------------------------------------------- */
+
+For edit the devzan file, you need to installed Adobe Photoshop on your system, and install fonts that we mentioned creadit section.
+
+How to put text?
+------------------
+
+First of all you have to download the fonts and install them on your system. just click on the text and replace by your own text.
+
+Note: For using fontAwesome icon please go here >> https://goo.gl/q9rRUp
+
+How to use smart object image?
+-------------------------------
+
+Just double click on the convert to smart objct layer and put your image or logo then save & close.
+
+Note: For more information about smart object click here >> https://goo.gl/CWFFj4
+
+
+/* Creadits
+---------------------------------------------------------- */
+
+Fonts:
+
+- http://fontawesome.io/ (Font Awesome)
+- https://www.fontsquirrel.com/fonts/poppins (Poppins)
+- https://www.fontsquirrel.com/fonts/roboto (Roboto)
+
+Images:
+
+- https://unsplash.com/ (Unsplash)
+- https://pixabay.com/ (Pixabay)
+
+/* Supports
+---------------------------------------------------------- */
+
+Dear Sir, If you face installation and customization related problem. so, feel free to contact with us.
+
+Email: mycodrops@gmail.com
+
+Good Luck!
