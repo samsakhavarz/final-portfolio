@@ -1,0 +1,24 @@
+//TOP NAV SECTION
+header {
+    height: 100vh;
+    background: $black;
+
+    .top-of-header {
+        background: $white;
+        width: 100vw;
+        font-family: $text-font;
+        @include base-font(17);
+    }
+
+    h1 {
+        font-family: $title-font;
+        @include base-font(50);
+        color: $dark-pink;
+    }
+    h2 {
+        font-family: $text-font;
+        @include base-font(25);
+        color: $white;
+    }
+
+}

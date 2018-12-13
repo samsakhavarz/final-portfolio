@@ -16,7 +16,7 @@
     <header id="home">
         <div class="top-of-header">
             <div class="wrapper">
-                <a href=""></a>
+                <a href="#home">Sam Sakhavarz</a>
                 <nav>
                     <ul>
                         <li>
@@ -97,7 +97,7 @@
 
     <section id="work" class="work">
         <div class="wrapper">
-            <h3>My Latest Work</h3>
+            <h3>Latest Work</h3>
 
             <div class="project-gallery-container"> 
                 <!-- Project1 -->
@@ -199,23 +199,64 @@
         <h3>Skills</h3>
         <div class="skills-container">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>  
-                <li></li>
-                <li></li>
+                <li><i class="devicon-html5-plain"></i></li>
+                <li><i class="devicon-css3-plain"></i></li>
+                <li><i class="devicon-javascript-plain"></i></li>
+                <li><i class="devicon-jquery-plain"></i></li>
+                <li><i class="devicon-react-original"></i></li>
+                <li><i class="devicon-sass-original"></i></li>
+                <li><i class="devicon-github-plain"></i></li>
+                <li><i class="devicon-git-plain"></i></li>  
+                <li><img src="./assets/firebase-logo-logomark.svg" alt="firebase logo"></li>
             </ul>
         </div>
-
-
-
     </section>
 
-    
+<!-- SKILLS SECTION ENDS -->
+
+<!-- CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+        <div class="wrapper">
+            <h3>Get in Touch</h3>
+            <div class="contact-container">
+                <p>Email: <a href="mailto:samsakhavarz@gmail.com">samsakhavarz@gmail.com</a></p>
+                <form id="contact-form" class="contact-form" action="">
+                    <label class="visuallyhiden" for="name">Your Name</label>
+                    <input id="name" type="text" name="name" placeholder="your name" required="">
+                    <label class="visuallyhiden" for="email">Your Email</label>
+                    <input id="email" type="email" name="email" placeholder="your email" required="">
+                    <label class="visuallyhiden" for="message">Your Message</label>
+                    <textarea name="message" type="text" id="message" cols="30" rows="3" placeholder="your message"></textarea>
+                    <input type="submit" value="Send Message" aria-label="Submit Contact Form">
+                </form>             
+            </div>
+        </div>
+    </section>    
+
+<!-- CONTACT SECTION ENDS -->
+
+<!-- FOOTER SECTION -->
+
+    <footer class="footer-section">
+        <div class="social-links">
+            <ul>
+                <li><a href="https://twitter.com/samsakhavarz"><i class="devicon-twitter-plain"></i></a></li>
+                <li><a href="https://github.com/samsakhavarz"><i class="devicon-github-plain"></i></a></li>
+                <li><a href="linkedin.com/in/samsakhavarz"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyright-section">
+            <p class="footer-text">&copy Sam Sakhavarz 2018</p>
+        </div>
+    </footer>
+
+<!-- FOOTER SECTION ENDS -->
+
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./scripts/app.js"></script>
+
+   
 </body>
 </html>

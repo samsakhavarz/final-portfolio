@@ -1,0 +1,48 @@
+//GLOBAL STYLES
+html {
+    font-size: 62.5%;
+}
+
+//GENERAL BODY COPY
+body {
+    @include base-font(18);
+    font-family: $text-font;
+}
+
+//LAYOUT STYLES
+.wrapper {
+   max-width: 1080px;
+   width: 80%;
+   margin: 0 auto;
+}
+
+fieldset {
+   border: none;
+}
+
+label {
+   cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+//TITLES
+h3 {
+    font-family: $title-font;
+    @include base-font(22);
+}
+
+h4 {
+    font-family: $title-font;
+    @include base-font(20);
+}
+
+
+
+
