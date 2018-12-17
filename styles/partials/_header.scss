@@ -1,24 +1,47 @@
-//TOP NAV SECTION
 header {
-    height: 100vh;
-    background: $black;
-
-    .top-of-header {
-        background: $white;
-        width: 100vw;
-        font-family: $text-font;
-        @include base-font(17);
-    }
+    height: 95vh;
+    background: lightgray;
+    position: relative;
 
     h1 {
-        font-family: $title-font;
-        @include base-font(50);
-        color: $dark-pink;
+        font-family: Helvetica Neue, arial, sans-serif;
+        @include base-font(20);
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: $black;
+        padding-bottom: 2%;         
     }
+    
+    
     h2 {
-        font-family: $text-font;
-        @include base-font(25);
-        color: $white;
+        font-family: $headline-font;
+        font-weight: 400;
+        @include base-font(45);
+        color: $black;
+
+        .amp {
+        @include base-font(60);
+        color: $burgundy;
+        }
     }
 
+    .hero-section {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    
+
+    
+
+
+
 }
+
+
+
+
+

@@ -1,0 +1,21 @@
+
+.skills-title {
+    position: absolute;
+    left: 0;
+    top: -50%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10% 0;
+}
+
+.skills-container li svg {
+    width: 70px;
+    height: 70px;
+}
+
+
+

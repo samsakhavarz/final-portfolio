@@ -1,0 +1,57 @@
+.work-section {
+    background: lightgray;
+    padding: 5% 5% 12% 5%;
+}
+
+.work-title {
+    position: absolute;
+    top: -15.5%;
+    right: 0;
+}
+
+.project-gallery-container {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+   
+    .project-container {
+        width: 38%;
+        padding: 3% 0;
+        border-bottom: 5px solid $grey;
+    }
+
+    .project-description {
+        @include base-font(18);
+        letter-spacing: 1.3px;
+        padding: 8% 0;
+        min-height: 200px;
+    }
+
+    .skills-used {
+        padding: 2% 0;
+        @include base-font(16);
+        text-transform: uppercase;
+        color: $burgundy;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .skills-used span {
+        padding-right: 3%;
+
+    }
+
+    .project-links {
+        text-align: center;
+    }
+    .project-links a {
+        margin-right: 3%;
+        color: $white;
+        padding: 3%;
+        background: $red;
+        @include base-font(14);
+    }
+}

@@ -1,0 +1,16 @@
+// COLOR PALETTE
+$black: #1A1A1D;
+$white: #FAFAFA;
+$grey: #4E4E50;
+$burgundy: #6F2232;
+$dark-pink: #950740;
+$red: #C3073F;
+
+// FONTS
+$headline-font:'EB Garamond', serif;
+
+//MIXINS
+@mixin base-font($size-value){
+   font-size: $size-value * 1px;
+   font-size: ($size-value/10) * 1rem;
+}

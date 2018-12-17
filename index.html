@@ -5,84 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sam Sakhavarz</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
-<body>
-<!-- HEADER SECTION -->
-    <header id="home">
-        <div class="top-of-header">
-            <div class="wrapper">
-                <a href="#home">Sam Sakhavarz</a>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">About</a>
-                        </li>
-                        <li>
-                            <a href="">Work</a>
-                        </li>
-                        <li>
-                            <a href="">Skills</a>
-                        </li>
-                        <li>
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-        <!-- RESPONSIVE NAV -->
-                <nav class="mobile-menu" role="mobile-menu">
-                    <div id="mobile-toggle">
-                        <input type="checkbox">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        <ul id="menu">
-                            <li>
-                                <a href="">Home</a>
-                            </li>
-                            <li>
-                                <a href="">About</a>
-                            </li>
-                            <li>
-                                <a href="">Work</a>
-                            </li>
-                            <li>
-                                <a href="">Skills</a>
-                            </li>
-                            <li>
-                                <a href="">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!-- RESPONSIVE NAV ENDS-->
+<body>   
+    <div class="menu">
+        <span class="menu-circle"></span>
+        <a href="" class="menu-link">
+            <span class="menu-icon">
+                <span class="menu-line menu-line-1"></span>
+                <span class="menu-line menu-line-2"></span>
+                <span class="menu-line menu-line-3"></span>
+            </span>
+        </a>
+    </div>
 
-        <div class="header-hero">
-            <div class="wrapper">
-                <h1>Sam Sakhavarz</h1>
-                <h2>Front-End Web Developer</h2>
-            </div>
+    <div class="menu-overlay">
+        <div class="overlay-header">
+            <h3 class="overlay-title">Sam Sakhavarz</h3>
+        </div>
+        <div class="menu-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#skills">My Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+   
+    <header id="home">
+        <div class="content-wrapper hero-section">
+            <h1 class="portfolio-intro-subheader">Sam Sakhavarz</h1>
+            <h2 class="single-page-header portfolio-intro-header">I build <span class="amp">&</span> break things on the internet.</h2>
         </div>
     </header>
+
 <!-- HEADER SECTION ENDS -->
 
 <!-- ABOUT SECTION -->
     <section id="about" class="about-section">
-        <div class="wrapper">
-            <h3>About Me</h3>
+        <div class="content-wrapper">
+            <h3 class="about-title">Hello.</h3>
             <div class="about-container">
-                <div class="portfolio-image-container">
-                    <img src="" alt="">
-                </div>
                 <div class="about-intro-copy">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum laborum adipisci dicta id nesciunt eum, totam fugiat modi iste provident quasi natus sit soluta magni.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ducimus voluptatibus minima rerum porro enim cumque quisquam facere magni modi!</p>
@@ -95,98 +62,87 @@
 
 <!-- WORK SECTION -->
 
-    <section id="work" class="work">
-        <div class="wrapper">
-            <h3>Latest Work</h3>
-
+    <section id="work" class="work-section">
+        <div class="content-wrapper">
+            <h3 class="work-title">Work.</h3>
             <div class="project-gallery-container"> 
                 <!-- Project1 -->
                 <div class="project-container">
-                    <div class="project-image-container">
-                        <img src="" alt="">
+                    <h4 class="project-title">Random Pep Talks</h4>
+                    <div class="image-frame">
+                        <img src="./assets/pep-talks.png" alt="screenshot of random quote generator website">
                     </div>
-                    <div class="project-content-container">
-                        <h4 class="project-title">Title</h4>
-                        <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci modi magni quia sunt aut enim doloribus ex non, quidem ut?</p>
-                        <div class="skills-used">
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                        </div>
-                        <div class="project-links">
-                            <a href="">View Live</a>
-                            <a href="">View Github</a>
-                        </div>
+                    <p class="project-description">A random quote generator inspired by my love of the TV show, Friday Night Lights, and its legendary Coach Taylor who inspired his students with words of wisdom every episode.</p>
+                    <div class="skills-used">
+                        <span>html</span>
+                        <span>css/sass</span>
+                        <span>JQuery</span>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="">View Live</a>
+                        <a href="">View Github</a>
                     </div>
                 </div>
 
                 <!-- Project2 -->
                 <div class="project-container">
-                    <div class="project-image-container">
-                        <img src="" alt="">
+                    <h4 class="project-title">SmartyPants</h4>
+                    <div class="image-frame">
+                        <img src="./assets/smartypants.png" alt="screenshot of trivia quizz website">
                     </div>
-                    <div class="project-content-container">
-                        <h4 class="project-title">Title</h4>
-                        <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci modi magni quia
-                            sunt aut enim doloribus ex non, quidem ut?</p>
-                        <div class="skills-used">
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                        </div>
-                        <div class="project-links">
-                            <a href="">View Live</a>
-                            <a href="">View Github</a>
-                        </div>
+                    <p class="project-description">A trivia web application built via pair programming collaboration with a colleague. It is an interactive trivia quiz game that lets the user select a topic and answer a series of ten questions.</p>
+                    
+                    <div class="skills-used"> 
+                        <span>html</span>
+                        <span>css</span>
+                        <span>JQuery</span>
+                        <span>Javascript</span>
+                        <span>API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="">View Live</a>
+                        <a href="">View Github</a>
                     </div>
                 </div>
 
                 <!-- Project3 -->
                 <div class="project-container">
-                    <div class="project-image-container">
-                        <img src="" alt="">
+                    <h4 class="project-title">PSD Conversion</h4>
+                    <div class="image-frame">
+                        <img src="./assets/psd-conversion.png" alt="screenshot of psd conversion website project">
                     </div>
-                    <div class="project-content-container">
-                        <h4 class="project-title">Title</h4>
-                        <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci modi magni quia
-                            sunt aut enim doloribus ex non, quidem ut?</p>
-                        <div class="skills-used">
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                        </div>
-                        <div class="project-links">
-                            <a href="">View Live</a>
-                            <a href="">View Github</a>
-                        </div>
+                    <p class="project-description">A project that leveraged a PSD design reference to build accordingly with HTML and CSS as a responsive website experience.</p>
+                    <div class="skills-used">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>Flexbox</span>
+                        
+                    </div>
+                    <div class="project-links">
+                        <a href="">View Live</a>
+                        <a href="">View Github</a>
                     </div>
                 </div>
 
                 <!-- Project4 -->
                 <div class="project-container">
-                    <div class="project-image-container">
-                        <img src="" alt="">
+                    <h4 class="project-title">Versvs</h4>
+                    <div class="image-frame">
+                        <img src="./assets/versvs.png" alt="screenshot of author search database web application">
                     </div>
-                    <div class="project-content-container">
-                        <h4 class="project-title">Title</h4>
-                        <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci modi magni quia
-                            sunt aut enim doloribus ex non, quidem ut?</p>
-                        <div class="skills-used">
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                        </div>
-                        <div class="project-links">
-                            <a href="">View Live</a>
-                            <a href="">View Github</a>
-                        </div>
+                    <p class="project-description">A team collaboration using the Goodreads API that enabled users to search authors to view their hightest/lowest rated books. Review/Ratings ratios also display via dashboard design. </p>
+                    <div class="skills-used">
+                        <span>React</span>
+                        <span>API</span>
+                        <span>html</span>
+                        <span>css</span>                      
+                    </div>
+                    <div class="project-links">
+                        <a href="">View Live</a>
+                        <a href="">View Github</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -194,22 +150,28 @@
 <!-- WORK SECTION ENDS -->
 
 <!-- SKILLS SECTION -->
-
-    <section id="skills" class="skills">
-        <h3>Skills</h3>
-        <div class="skills-container">
-            <ul>
-                <li><i class="devicon-html5-plain"></i></li>
-                <li><i class="devicon-css3-plain"></i></li>
-                <li><i class="devicon-javascript-plain"></i></li>
-                <li><i class="devicon-jquery-plain"></i></li>
-                <li><i class="devicon-react-original"></i></li>
-                <li><i class="devicon-sass-original"></i></li>
-                <li><i class="devicon-github-plain"></i></li>
-                <li><i class="devicon-git-plain"></i></li>  
-                <li><img src="./assets/firebase-logo-logomark.svg" alt="firebase logo"></li>
-            </ul>
-        </div>
+    <section id="skills" class="skills-section">       
+            <div class="content-wrapper">
+                <h3 class="skills-title">Skills.</h3>
+                <ul class="skills-container">
+                    <li><i class="devicon-html5-plain"></i></li>
+                    <li><i class="devicon-css3-plain"></i></li>
+                    <li><i class="devicon-javascript-plain"></i></li>
+                    <li><i class="devicon-jquery-plain"></i></li>
+                    <li><i class="devicon-react-original"></i></li>
+                    <li><i class="devicon-sass-original"></i></li>
+                    <li><i class="devicon-github-plain"></i></li>
+                    <li><i class="devicon-git-plain"></i></li>  
+                    <!-- <li><img class="firebase-logo" src="./assets/firebase-logo-logomark.svg" alt="firebase logo"></li> -->
+                    <li class="lastRow"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
+                    x="0px" y="0px" width="256px" height="351px" viewBox="0 0 256 351" enable-background="new 0 0 256 351" space="preserve">
+                    <path fill="##272725" d="M0,282.998l2.123-2.973L102.527,89.512l0.212-2.017L58.479,4.358c-3.708-6.964-14.148-5.204-15.365,2.592 L0,282.998z" />
+                    <path fill="##272725" d="M135.005,150.381l32.955-33.751l-32.964-62.93c-3.13-5.957-11.867-5.974-14.963,0l-17.612,33.589v2.861
+                    L135.005,150.381z" />
+                    <path fill="##272725" d="M139.121,347.551l116.275-64.848L222.191,78.209c-1.039-6.398-8.888-8.928-13.467-4.34L0,282.998
+                    l115.608,64.547C122.915,351.625,131.812,351.627,139.121,347.551" /></svg></li>
+                </ul>
+            </div>
     </section>
 
 <!-- SKILLS SECTION ENDS -->
@@ -255,6 +217,7 @@
 
 <!-- SCRIPTS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
 <script src="./scripts/app.js"></script>
 
    

@@ -1,0 +1,19 @@
+.about-section {
+    background: $white;
+}
+        .about-title {
+            position: absolute;
+            top: -24%;
+            left: 0;
+        }
+
+.about-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-intro-copy {
+    width: 80%;
+    padding: 8% 5% 16% 5%;
+}
