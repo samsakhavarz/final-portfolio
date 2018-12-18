@@ -1,12 +1,40 @@
-.visuallyhidden:not(:focus):not(:active) {
-          position: absolute;
-          width: 1px;
-          height: 1px;
-          margin: -1px;
-          border: 0;
-          padding: 0;
-          white-space: nowrap;
-          clip-path: inset(100%);
-          clip: rect(0 0 0 0);
-          overflow: hidden;
-    }
+.contact-section {
+      background: lightgray;
+      padding: 10% 0;
+}
+
+.contact-title {
+      position: absolute;
+      top: -41%;
+      right: 0;
+
+}
+
+.contact-container {
+      position: relative;
+      display: flex; 
+      flex-direction: row;  
+      justify-content: space-between;   
+}
+
+.contact-text {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+}
+
+.contact-text p {
+      padding: 5% 5% 5% 0;
+}
+
+.contact-pic {
+      width: 40%;
+}
+
+.contact-pic img {
+      width: 100%;
+      height: auto;
+}
+
+
+

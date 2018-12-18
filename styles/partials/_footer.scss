@@ -1,3 +1,28 @@
 .footer-section {
-    background: $black;
+    background: $dark-pink;
+}
+
+.social-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.social-links i {
+    @include base-font(20);
+    color: $white;
+}
+
+.footer-text {
+    @include base-font(18);
+    color: $white;
+    text-align: center;
+    letter-spacing: 2.5px;
+    font-family: $headline-font;
+    padding-top: 0;
+}
+
+.legal {
+    text-align: center;
 }

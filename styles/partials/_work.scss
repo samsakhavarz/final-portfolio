@@ -1,57 +1,83 @@
 .work-section {
     background: lightgray;
-    padding: 5% 5% 12% 5%;
+    padding: 10%;
 }
 
 .work-title {
     position: absolute;
-    top: -15.5%;
+    top: -24%;
     right: 0;
 }
 
-.project-gallery-container {
-    padding: 5% 0;
+.row-1,
+.row-2 {
+    display: flex;
+}
+
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 45%;
+    background: $white;
+    margin: 5% 3%;
+    box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
+}
+
+.project-description {
+    @include base-font(16);
+    letter-spacing: 1.3px;
+    height: auto;
+}
+
+.skills-used {
+    @include base-font(16);
+    text-transform: uppercase;
+    color: $burgundy;
+    text-align: center;
+}
+
+.cta-links {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+}
 
-    
-   
-    .project-container {
-        width: 38%;
-        padding: 3% 0;
-        border-bottom: 5px solid $grey;
-    }
 
-    .project-description {
-        @include base-font(18);
-        letter-spacing: 1.3px;
-        padding: 8% 0;
-        min-height: 200px;
-    }
+.link-button {
+    background: $red;
+    @include base-font(14);
 
-    .skills-used {
-        padding: 2% 0;
-        @include base-font(16);
-        text-transform: uppercase;
-        color: $burgundy;
-        margin-bottom: 5%;
-        text-align: center;
-    }
-    .skills-used span {
-        padding-right: 3%;
+}
 
-    }
+.link-button a {
+    color: $white;
+    letter-spacing: 2px;
+    position: relative;
+}
 
-    .project-links {
-        text-align: center;
-    }
-    .project-links a {
-        margin-right: 3%;
-        color: $white;
-        padding: 3%;
-        background: $red;
-        @include base-font(14);
-    }
+.link-button a:hover {
+    color: $white;
+}
+
+.link-button a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.link-button a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }

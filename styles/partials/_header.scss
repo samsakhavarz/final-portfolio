@@ -3,27 +3,7 @@ header {
     background: lightgray;
     position: relative;
 
-    h1 {
-        font-family: Helvetica Neue, arial, sans-serif;
-        @include base-font(20);
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        color: $black;
-        padding-bottom: 2%;         
-    }
     
-    
-    h2 {
-        font-family: $headline-font;
-        font-weight: 400;
-        @include base-font(45);
-        color: $black;
-
-        .amp {
-        @include base-font(60);
-        color: $burgundy;
-        }
-    }
 
     .hero-section {
         position: absolute;
@@ -32,12 +12,6 @@ header {
         transform: translateX(-50%);
         text-align: center;
     }
-
-    
-
-    
-
-
 
 }
 

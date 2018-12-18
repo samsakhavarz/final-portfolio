@@ -15,30 +15,30 @@ body {
 
 //LAYOUT STYLES
 .content-wrapper {
-   max-width: 1080px;
+   max-width: 1280px;
    position: relative;
-   width: 80%;
+   width: 90%;
    margin: 0 auto;
 }
 
 
 img {
-    max-width: 100%;
+    width: 100%;
+    display: block;
 }
 
 // GENERAL STYLES
 
-fieldset {
-   border: none;
-}
-
-label {
-   cursor: pointer;
-}
-
 a {
     text-decoration: none;
     color: $black;
+    font-family: Helvetica Neue, arial, sans-serif;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -49,6 +49,7 @@ p {
     margin: 0;
     padding: 20px;
     @include base-font(20);
+    font-family: Helvetica Neue, arial, sans-serif;
 }
 
 i {
@@ -61,12 +62,39 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
+h1 {
+    font-family: Helvetica Neue, arial, sans-serif;
+    @include base-font(18);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $black;
+    padding-bottom: 2%;         
+}
+    
+    
+h2 {
+    font-family: $headline-font;
+    font-weight: 400;
+    @include base-font(45);
+    color: $black;
+
+    .amp {
+    @include base-font(60);
+    color: $red;
+    }
+}
+
+
 h3 {
-    @include base-font(150);
+    @include base-font(160);
     text-align: center;
     color: $dark-pink;
 }
 
+h3.period::after {
+    content: ".";
+    font-family: $headline-font;
+}
 
 
 .project-title {
@@ -75,4 +103,16 @@ h3 {
     font-family: $headline-font;
     text-align: center;
     padding: 5% 0;
+    font-weight: lighter;
+}
+
+.email-address {
+    @include base-font(40);
+    font-family: $headline-font;
+    color: $red;
+}
+
+.at {
+    @include base-font(60);
+    color: $grey;
 }
