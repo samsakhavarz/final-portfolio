@@ -1,37 +1,53 @@
-// @media only screen and (max-width: 1024px) {
-//     h3 {
-//         @include base-font(135);
-//     }
+//BREAKPOINT - 1224PX OR SMALLER
+@media only screen and (max-width: 1224px) {
+    .about-title {
+        top: -25.5%;
+    }
 
-//     .about-title {
-//         top: -23%;
-//     }
+    .work-title {
+        top: -22%;
+        right: 0;
+    }
 
-//     .work-title {
-//         top: -13%;
-//     }
+    .skills-title {       
+        top: -30%;
+    }
 
-//     // .project-container {
-//     //     width: 50%;
-//     // }
+    .contact-title {
+        top: -27%;
+        right: 7%;
+    }
+}
 
-//     .skills-used span {
-//         padding: 3%;
-//     }
-    
-    
+//BREAKPOINT - 1024PX OR SMALLER
+@media only screen and (max-width: 1024px) {
+    .about-title {
+        top: -26.5%;
+    }
 
+    .work-title {
+        top: -7.5%;
+        right: 0;
+    }
+    .row-1,
+    .row-2 {
+        flex-direction: column;
+    }
+    .project-container {
+        width: 100%;
+    }
 
+    .skills-title {       
+        top: -34%;
+    }
 
+    .contact-title {
+        top: -32%;
+        right: 3%;
+    }
+}
 
-// }
-
-
-
-
-
-
-//HEADER
+//BREAKPOINT - 768PX OR SMALLER
 @media only screen and (max-width: 768px) {
     h2 {
         @include base-font(40);
@@ -41,45 +57,45 @@
         @include base-font(110);
     }
 
-    //ABOUT
     .about-title {
-        top: -19.5%;
-        left: 50%;
+        top: -17%;
+        left: 28%;
         transform: translateX(-50%);
     }
+
     .about-container {
         justify-content: center;
     }
+
     .about-intro-copy {
         width: 100%;
         padding: 10% 0 20% 0;
     }
 
-    //WORK
     .work-section {
         padding: 10% 0;
     }
+
     .work-title {
         top: -5.5%;
-        left: 50%;
+        right: -20%;
         transform: translateX(-50%);
     }
-    .project-gallery-container {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        width: 100%
-    } 
-    .project-gallery-container .project-container {
+ 
+
+ .project-container {
         width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin: 5% 0;
     }
 
-    //SKILLS
     .skills-section {
         padding: 5% 0;
     }
     .skills-title {
-        top: -48%;
-        left: 50%;
+        top: -43%;
+        left: 30%;
         transform: translateX(-50%);
     }
 
@@ -97,9 +113,17 @@
     }
 
     .contact-title {
-        top: -60%;
-        left: 50%;
-        transform: translateX(-50%);
+        top: -7.5%;
+        right: 3%;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-section,
+    .contact-pic {
+        width: 100%;
     }
 
     .email-address {
@@ -109,6 +133,8 @@
     .at {
         @include base-font(50);
     }
+
+    
 
 
 

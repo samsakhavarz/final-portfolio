@@ -2,17 +2,7 @@
     background: $dark-pink;
 }
 
-.social-links ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 5%;
-}
 
-.social-links i {
-    @include base-font(20);
-    color: $white;
-}
 
 .footer-text {
     @include base-font(18);
@@ -20,7 +10,7 @@
     text-align: center;
     letter-spacing: 2.5px;
     font-family: $headline-font;
-    padding-top: 0;
+    padding: 2%;
 }
 
 .legal {

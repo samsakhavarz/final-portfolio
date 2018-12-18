@@ -23,8 +23,7 @@ body {
 
 
 img {
-    width: 100%;
-    display: block;
+    max-width: 100%;    
 }
 
 // GENERAL STYLES
@@ -107,7 +106,7 @@ h3.period::after {
 }
 
 .email-address {
-    @include base-font(40);
+    @include base-font(36);
     font-family: $headline-font;
     color: $red;
 }
@@ -115,4 +114,10 @@ h3.period::after {
 .at {
     @include base-font(60);
     color: $grey;
+}
+
+.skills {
+    @include base-font(12);
+    padding: 0 2%;
+    text-align: center;
 }
