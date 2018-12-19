@@ -860,6 +860,8 @@ p.photo-credit {
     height: 60px; } }
 
 @media only screen and (max-width: 375px) {
+  header {
+    height: 80vh; }
   .about-title {
     top: -10%;
     left: 32%; }
