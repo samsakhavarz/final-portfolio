@@ -1,18 +1,19 @@
 .footer-section {
     background: $dark-pink;
-}
-
-
-
-.footer-text {
-    @include base-font(18);
+    padding: 1% 0;
     color: $white;
     text-align: center;
-    letter-spacing: 2.5px;
-    font-family: $headline-font;
-    padding: 2%;
 }
 
-.legal {
-    text-align: center;
+
+
+p.footer-text {    
+    letter-spacing: 2.5px;
+    font-family: $headline-font;
 }
+
+p.photo-credit {
+    @include base-font(12);
+
+}
+

@@ -1,9 +1,11 @@
-
-
+.menu-bar {
+  position: fixed;
+  z-index: 100;
+}
 .menu {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 25px;
+  left: 25px;
   height: 46px;
   width: 46px;
   
@@ -141,8 +143,6 @@
 .menu-links a:hover {
   color: $red;
 }
-
-
 
 .menu-links a:before {
   content: "";

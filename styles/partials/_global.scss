@@ -21,9 +21,8 @@ body {
    margin: 0 auto;
 }
 
-
 img {
-    max-width: 100%;    
+    max-width: 100%;
 }
 
 // GENERAL STYLES
@@ -49,6 +48,7 @@ p {
     padding: 20px;
     @include base-font(20);
     font-family: Helvetica Neue, arial, sans-serif;
+    line-height: 1.6;
 }
 
 i {
@@ -79,7 +79,7 @@ h2 {
 
     .amp {
     @include base-font(60);
-    color: $red;
+    color: $dark-pink;
     }
 }
 
@@ -120,4 +120,9 @@ h3.period::after {
     @include base-font(12);
     padding: 0 2%;
     text-align: center;
+}
+
+.tagline{
+    font-weight: bold;
+
 }

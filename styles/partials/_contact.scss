@@ -1,7 +1,6 @@
 .contact-wrapper {
       display: flex; 
       flex-direction: row;
-      margin: 0 auto; 
       position: relative;
 }
 .contact-section {
@@ -15,14 +14,22 @@
       padding: 5% 5% 0 10%;
 }
 
-.contact-pic {
-      width: 50%;
+.image-box {
+      width: 45%;
 }
+
+.contact-pic {
+      display: block;
+      min-height: 100%;
+      min-width: 100%;
+}
+
+
 
 .contact-title {
       position: absolute;
-      top: -19%;
-      right: 10%;
+      top: -21%;
+      right: 8%;
 }
 
 .social-links ul {

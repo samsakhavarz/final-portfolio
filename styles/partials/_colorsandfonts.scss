@@ -9,6 +9,7 @@ $red: #C3073F;
 // FONTS
 $headline-font:'EB Garamond', serif;
 
+
 //MIXINS
 @mixin base-font($size-value){
    font-size: $size-value * 1px;
